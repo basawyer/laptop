@@ -113,6 +113,7 @@ brew update
 brew bundle --file=- <<EOF
 tap "thoughtbot/formulae"
 tap "homebrew/services"
+tap "universal-ctags/universal-ctags"
 
 # Applications
 cask "1password"
@@ -122,9 +123,9 @@ cask "google-chrome"
 cask "slack"
 
 # Unix
-brew "ctags"
 brew "fzf"
 brew "geckodriver"
+brew "universal-ctags", args: ["HEAD"]
 brew "git"
 brew "openssl"
 brew "phantomjs"
