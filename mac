@@ -114,10 +114,20 @@ brew bundle --file=- <<EOF
 tap "thoughtbot/formulae"
 tap "homebrew/services"
 
+# Applications
+cask "1password"
+cask "dropbox"
+cask "firefox"
+cask "google-chrome"
+cask "slack"
+
 # Unix
 brew "ctags"
+brew "fzf"
+brew "geckodriver"
 brew "git"
 brew "openssl"
+brew "phantomjs"
 brew "rcm"
 brew "reattach-to-user-namespace"
 brew "the_silver_searcher"
